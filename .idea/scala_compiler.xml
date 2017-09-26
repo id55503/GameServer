@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="gameserver" />
+    <profile name="SBT 1" modules="gameserver,root,gmServer,engine-sample,utils,engine-plugin-data,engine-plugin-http-client,engine-plugin-jetty,engine-plugin-kafka-producer,engine-plugin-quartz,engine-plugin-redis,engine-plugin-redisson,stack,akka-kafka-logger-consumer,engine_control,engine-control-protocol,engine_metric,engine_metric_protocol,engine_watchDog,netty_server,netty-server-protocol,rest_server,rest-server-protocol,statistic,statistic-client-mongo,statistic-protocol,statistic-protocol-mongo,statistic-server-mongo,topic,gameAll,alliance_service,calendarEvent-service,calendarEvent-service-protocol,city_server,common_protocol,contract-service,country_system_service,db,dbEntity,jooq-codegen-strategy,freeze-service,game-cron,game-cron-protocol,game-http,gameHttpProtocol,game-ranking,game-ranking-protocol,game_chatting,game_chatting_protocol,game_server,global_boss,gm_server_protocol,group_service,identity_service,logic_master,logic-master-protocol,logic_server,logic-server-protocol,login_server,login-server-protocol,mail_service,mail_service_protocol,operation_event_service,routine_event_service,shared_data_service,statistic_service,verifyCreateService,worldMap-service,worldMap-service-client" />
+    <profile name="SBT 2" modules="akka-kafka-hystrix-aggregator,schema-registry,statistic-server">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+      </parameters>
+    </profile>
   </component>
 </project>

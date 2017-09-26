@@ -4,16 +4,159 @@
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app/gmServer" />
+            <option value="$PROJECT_DIR$/app/gmServer/project" />
+            <option value="$PROJECT_DIR$/framework/engine-sample" />
+            <option value="$PROJECT_DIR$/framework/engine-sample/project" />
+            <option value="$PROJECT_DIR$/framework/utils" />
+            <option value="$PROJECT_DIR$/framework/utils/project" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-data" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-data/project" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-http-client" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-http-client/project" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-jetty" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-jetty/project" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-kafka-producer" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-kafka-producer/project" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-quartz" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-quartz/project" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-redis" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-redis/project" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-redisson" />
+            <option value="$PROJECT_DIR$/plugins/engine-plugin-redisson/project" />
             <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/stack" />
+            <option value="$PROJECT_DIR$/stack/akka-kafka-hystrix-aggregator" />
+            <option value="$PROJECT_DIR$/stack/akka-kafka-hystrix-aggregator/project" />
+            <option value="$PROJECT_DIR$/stack/akka-kafka-logger-consumer" />
+            <option value="$PROJECT_DIR$/stack/akka-kafka-logger-consumer/project" />
+            <option value="$PROJECT_DIR$/stack/engine_control" />
+            <option value="$PROJECT_DIR$/stack/engine_control/project" />
+            <option value="$PROJECT_DIR$/stack/engine_control/protocol" />
+            <option value="$PROJECT_DIR$/stack/engine_control/protocol/project" />
+            <option value="$PROJECT_DIR$/stack/engine_metric" />
+            <option value="$PROJECT_DIR$/stack/engine_metric/project" />
+            <option value="$PROJECT_DIR$/stack/engine_metric/protocol" />
+            <option value="$PROJECT_DIR$/stack/engine_metric/protocol/project" />
+            <option value="$PROJECT_DIR$/stack/engine_watchDog" />
+            <option value="$PROJECT_DIR$/stack/engine_watchDog/project" />
+            <option value="$PROJECT_DIR$/stack/netty_server" />
+            <option value="$PROJECT_DIR$/stack/netty_server/project" />
+            <option value="$PROJECT_DIR$/stack/netty_server/protocol" />
+            <option value="$PROJECT_DIR$/stack/netty_server/protocol/project" />
+            <option value="$PROJECT_DIR$/stack/project" />
+            <option value="$PROJECT_DIR$/stack/rest_server" />
+            <option value="$PROJECT_DIR$/stack/rest_server/project" />
+            <option value="$PROJECT_DIR$/stack/rest_server/protocol" />
+            <option value="$PROJECT_DIR$/stack/rest_server/protocol/project" />
+            <option value="$PROJECT_DIR$/stack/schema-registry" />
+            <option value="$PROJECT_DIR$/stack/schema-registry/project" />
+            <option value="$PROJECT_DIR$/stack/statistic" />
+            <option value="$PROJECT_DIR$/stack/statistic/client-mongo" />
+            <option value="$PROJECT_DIR$/stack/statistic/client-mongo/project" />
+            <option value="$PROJECT_DIR$/stack/statistic/project" />
+            <option value="$PROJECT_DIR$/stack/statistic/protocol" />
+            <option value="$PROJECT_DIR$/stack/statistic/protocol-mongo" />
+            <option value="$PROJECT_DIR$/stack/statistic/protocol-mongo/project" />
+            <option value="$PROJECT_DIR$/stack/statistic/protocol/project" />
+            <option value="$PROJECT_DIR$/stack/statistic/server" />
+            <option value="$PROJECT_DIR$/stack/statistic/server-mongo" />
+            <option value="$PROJECT_DIR$/stack/statistic/server-mongo/project" />
+            <option value="$PROJECT_DIR$/stack/statistic/server/project" />
+            <option value="$PROJECT_DIR$/stack/topic" />
+            <option value="$PROJECT_DIR$/stack/topic/project" />
+            <option value="$PROJECT_DIR$/xxjh" />
+            <option value="$PROJECT_DIR$/xxjh/alliance_service" />
+            <option value="$PROJECT_DIR$/xxjh/alliance_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/calendarEvent-service" />
+            <option value="$PROJECT_DIR$/xxjh/calendarEvent-service/project" />
+            <option value="$PROJECT_DIR$/xxjh/calendarEvent-service/protocol" />
+            <option value="$PROJECT_DIR$/xxjh/calendarEvent-service/protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/city_server" />
+            <option value="$PROJECT_DIR$/xxjh/city_server/project" />
+            <option value="$PROJECT_DIR$/xxjh/common_protocol" />
+            <option value="$PROJECT_DIR$/xxjh/common_protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/contract-service" />
+            <option value="$PROJECT_DIR$/xxjh/contract-service/project" />
+            <option value="$PROJECT_DIR$/xxjh/country_system_service" />
+            <option value="$PROJECT_DIR$/xxjh/country_system_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/db" />
+            <option value="$PROJECT_DIR$/xxjh/db/dbEntity" />
+            <option value="$PROJECT_DIR$/xxjh/db/dbEntity/project" />
+            <option value="$PROJECT_DIR$/xxjh/db/jooq-codegen-strategy" />
+            <option value="$PROJECT_DIR$/xxjh/db/jooq-codegen-strategy/project" />
+            <option value="$PROJECT_DIR$/xxjh/db/project" />
+            <option value="$PROJECT_DIR$/xxjh/freeze-service" />
+            <option value="$PROJECT_DIR$/xxjh/freeze-service/project" />
+            <option value="$PROJECT_DIR$/xxjh/game-cron" />
+            <option value="$PROJECT_DIR$/xxjh/game-cron/project" />
+            <option value="$PROJECT_DIR$/xxjh/game-cron/protocol" />
+            <option value="$PROJECT_DIR$/xxjh/game-cron/protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/game-http" />
+            <option value="$PROJECT_DIR$/xxjh/game-http/gameHttpProtocol" />
+            <option value="$PROJECT_DIR$/xxjh/game-http/gameHttpProtocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/game-http/project" />
+            <option value="$PROJECT_DIR$/xxjh/game-ranking" />
+            <option value="$PROJECT_DIR$/xxjh/game-ranking/project" />
+            <option value="$PROJECT_DIR$/xxjh/game-ranking/protocol" />
+            <option value="$PROJECT_DIR$/xxjh/game-ranking/protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/game_chatting" />
+            <option value="$PROJECT_DIR$/xxjh/game_chatting/project" />
+            <option value="$PROJECT_DIR$/xxjh/game_chatting/protocol" />
+            <option value="$PROJECT_DIR$/xxjh/game_chatting/protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/game_server" />
+            <option value="$PROJECT_DIR$/xxjh/game_server/project" />
+            <option value="$PROJECT_DIR$/xxjh/global_boss" />
+            <option value="$PROJECT_DIR$/xxjh/global_boss/project" />
+            <option value="$PROJECT_DIR$/xxjh/gm_server_protocol" />
+            <option value="$PROJECT_DIR$/xxjh/gm_server_protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/group_service" />
+            <option value="$PROJECT_DIR$/xxjh/group_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/identity_service" />
+            <option value="$PROJECT_DIR$/xxjh/identity_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/logic_master" />
+            <option value="$PROJECT_DIR$/xxjh/logic_master/project" />
+            <option value="$PROJECT_DIR$/xxjh/logic_master/protocol" />
+            <option value="$PROJECT_DIR$/xxjh/logic_master/protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/logic_server" />
+            <option value="$PROJECT_DIR$/xxjh/logic_server/project" />
+            <option value="$PROJECT_DIR$/xxjh/logic_server/protocol" />
+            <option value="$PROJECT_DIR$/xxjh/logic_server/protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/login_server" />
+            <option value="$PROJECT_DIR$/xxjh/login_server/project" />
+            <option value="$PROJECT_DIR$/xxjh/login_server/protocol" />
+            <option value="$PROJECT_DIR$/xxjh/login_server/protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/mail_service" />
+            <option value="$PROJECT_DIR$/xxjh/mail_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/mail_service/protocol" />
+            <option value="$PROJECT_DIR$/xxjh/mail_service/protocol/project" />
+            <option value="$PROJECT_DIR$/xxjh/operation_event_service" />
+            <option value="$PROJECT_DIR$/xxjh/operation_event_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/project" />
+            <option value="$PROJECT_DIR$/xxjh/routine_event_service" />
+            <option value="$PROJECT_DIR$/xxjh/routine_event_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/shared_data_service" />
+            <option value="$PROJECT_DIR$/xxjh/shared_data_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/statistic_service" />
+            <option value="$PROJECT_DIR$/xxjh/statistic_service/project" />
+            <option value="$PROJECT_DIR$/xxjh/verifyCreateService" />
+            <option value="$PROJECT_DIR$/xxjh/verifyCreateService/project" />
+            <option value="$PROJECT_DIR$/xxjh/worldMap-service" />
+            <option value="$PROJECT_DIR$/xxjh/worldMap-service/client" />
+            <option value="$PROJECT_DIR$/xxjh/worldMap-service/client/project" />
+            <option value="$PROJECT_DIR$/xxjh/worldMap-service/project" />
           </set>
         </option>
-        <option name="sbtVersion" value="0.13.16" />
+        <option name="sbtVersion" value="0.13.11" />
         <option name="useAutoImport" value="true" />
         <option name="useOurOwnAutoImport" value="true" />
       </SbtProjectSettings>
     </option>
+    <option name="maximumHeapSize" value="4096" />
+    <option name="vmParameters" value="-XX:MaxPermSize=384M -Dhttp.proxyHost=192.168.0.118 -Dhttp.proxyPort=7070" />
   </component>
 </project>
